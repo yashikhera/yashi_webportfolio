@@ -10,11 +10,11 @@
 
 ### Website Preview
 #### Home Page
-<img src="assets/img/Profile.jpg" width="900">
+<img src="" width="900">
 
 
 #### About Page
-<img src="assets/img/Profile.jpg" width="900">
+<img src="" width="900">
 
 
  
