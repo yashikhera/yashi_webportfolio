@@ -16,11 +16,22 @@ body {
 }
 
 
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
 body::before {
   content: "";
   position: fixed;
-  background-image: url("https://tasbihdigital.com/wp-content/uploads/2022/06/Blue-Backgrounds-HD.jpg") top right no-repeat;
+  background-image: url(https://tasbihdigital.com/wp-content/uploads/2022/06/Blue-Backgrounds-HD.jpg) top right no-repeat;
   left: 0;
   right: 0;
   top: 0;
