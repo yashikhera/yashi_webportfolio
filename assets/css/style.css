@@ -22,7 +22,7 @@ body {
   z-index: 9999;
   width: 100%;
   height: 100%;
-  background: #000 url('static background.png') no-repeat center center;
+  background: url('static background.png') no-repeat center center;
 }
 
 #background-video {
