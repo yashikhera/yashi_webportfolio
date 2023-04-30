@@ -15,6 +15,15 @@ body {
   background: #dee2e6;
 }
 
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: #000 url('static background.png') no-repeat center center;
+}
 
 #background-video {
   width: 100vw;
@@ -146,6 +155,12 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
   }
+}
+.content-box {
+  background-color: rgba(0, 0, 0, 0.8); /* transparent black */
+  color: #fff; /* white font color */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
